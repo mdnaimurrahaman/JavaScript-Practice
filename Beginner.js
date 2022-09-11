@@ -32,5 +32,35 @@ const getFileExtension = (start) => start.slice(start.lastIndexOf('.'))
 console.log(getFileExtension('index.module.css'))
 */
 
+/*
+Exercise 3
+----------
+Write a javaScript program to replace every character in a given 
+string with the character following it in the alphabet.
+*/
+
+/*
+Solution:
+//String.fromCharCode
+//charCodeAt
+*/
+
+/*
+Exercise 4
+----------
+Write a javaScript program to get the current date.
+Expected Output: 
+mm-dd-yyyy, mm/dd/yy or dd-mm-yyyy, dd/mm/yyyy
+*/
+/*
+const formatDate = (date = new Date()) => {
+    const days = date.getDate(); // +1 
+    const months = date.getMonth(); // +1
+    const years = date.getFullYear();
+    return `${days}/${months}/${years}`
+}
+console.log(formatDate())
+*/
+
 
 
