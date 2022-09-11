@@ -102,3 +102,11 @@ function getRandomNumber(min, max){
 }
 console.log(getRandomNumber(1,6))
 */
+
+/*
+Exercise 8
+----------
+How to arrange the names in an array alphabetically ?
+const students = ["Limon". "Emon", "Saad", "Ashik"];
+console.log(students.sort());
+*/
