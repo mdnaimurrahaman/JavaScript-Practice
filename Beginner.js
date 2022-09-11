@@ -135,9 +135,6 @@ How to find out whether a year Leap Year ?
 */
 /*
 //Solution:
-
-*/
-
 function isLeapYear (year){
     if((year % 400 ===0) || (year % 4 === 0) && (year % 100 !== 0)){
         console.log(`${year} is Leap Year`)
@@ -146,4 +143,27 @@ function isLeapYear (year){
     }
 }
 isLeapYear(2024)
+*/
 
+/*
+Exercise 10
+----------
+How to determine the number of vowels in a sentence?
+*/
+/*
+//Solution:
+const vowels = ["a","e","i","o","u"];
+
+function countVowels (sentence){
+    let count = 0;
+    const Letter = Array.from(sentence);
+
+    Letter.forEach(function(value){
+        if(vowels.includes(value)){
+            count++;
+        }
+    });
+    return count
+}
+console.log(countVowels("My name is naimur rahaman Emon"))
+*/
