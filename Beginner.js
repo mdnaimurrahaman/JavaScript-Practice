@@ -121,8 +121,29 @@ Exercise 9
 How to arrange number in an array from large to small or from small to large?
 */
 /*
+//Solution:
 const rollNumber = [40, 20, 11, 5, 1, 7, 3, 9];
 console.log(rollNumber.sort(function(a, b){
     return a - b; // large to small return b -a 
 }));
 */
+
+/*
+Exercise 10
+----------
+How to find out whether a year Leap Year ?
+*/
+/*
+//Solution:
+
+*/
+
+function isLeapYear (year){
+    if((year % 400 ===0) || (year % 4 === 0) && (year % 100 !== 0)){
+        console.log(`${year} is Leap Year`)
+    } else{
+        console.log(`${year} is not Leap Year`)
+    }
+}
+isLeapYear(2024)
+
