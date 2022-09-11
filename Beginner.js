@@ -146,7 +146,7 @@ isLeapYear(2024)
 */
 
 /*
-Exercise 10
+Exercise 11
 ----------
 How to determine the number of vowels in a sentence?
 */
@@ -167,3 +167,20 @@ function countVowels (sentence){
 }
 console.log(countVowels("My name is naimur rahaman Emon"))
 */
+
+/*
+Exercise 11
+----------
+How to Extract duplicate numbers from an array?
+How to Extract unique numbers from an array?
+
+*/
+
+/*
+const numbers = [1,5,1,8,3,4,0,8,4,1,9,5,8,3,6,4];
+const duplicate = numbers.filter(function(value, index, array){
+    return array.indexOf(value) !== index; // unique === index;
+});
+console.log(duplicate)
+*/
+
