@@ -53,6 +53,7 @@ Expected Output:
 mm-dd-yyyy, mm/dd/yy or dd-mm-yyyy, dd/mm/yyyy
 */
 /*
+//Solution:
 const formatDate = (date = new Date()) => {
     const days = date.getDate(); // +1 
     const months = date.getMonth(); // +1
@@ -62,5 +63,15 @@ const formatDate = (date = new Date()) => {
 console.log(formatDate())
 */
 
-
-
+/*
+Exercise 5
+----------
+Write a javaScript program to create a new string adding "New!"
+in front of a given string. If the given string begins with "New!" 
+Already then return the original string.
+*/
+/*
+//Solution:
+ const addNew = (str) => str.indexOf('New!') === 0 ? str: `New! ${str}`;
+ console.log(addNew('New! Offers'));
+*/
