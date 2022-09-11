@@ -75,3 +75,30 @@ Already then return the original string.
  const addNew = (str) => str.indexOf('New!') === 0 ? str: `New! ${str}`;
  console.log(addNew('New! Offers'));
 */
+
+/*
+Beginner Exercises: Part 2
+--------------------------
+Exercise 6
+----------
+Write a javaScript program to create a new string from a given string
+takeing the first 3 characters and the last 3 characters of a string
+and adding them together. The string length must be 3 or more, if not, 
+the original string is returned.
+*/
+
+
+/*
+Exercise 7
+----------
+Write a javaScript program to always return a random number between min 
+and max (both incuded)
+*/
+
+/*
+//Solution:
+function getRandomNumber(min, max){
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+console.log(getRandomNumber(1,6))
+*/
