@@ -107,6 +107,22 @@ console.log(getRandomNumber(1,6))
 Exercise 8
 ----------
 How to arrange the names in an array alphabetically ?
+*/
+/*
+//Solution:
 const students = ["Limon". "Emon", "Saad", "Ashik"];
 console.log(students.sort());
+*/
+
+/*
+Exercise 9
+----------
+//Numeric Sort
+How to arrange number in an array from large to small or from small to large?
+*/
+/*
+const rollNumber = [40, 20, 11, 5, 1, 7, 3, 9];
+console.log(rollNumber.sort(function(a, b){
+    return a - b; // large to small return b -a 
+}));
 */
