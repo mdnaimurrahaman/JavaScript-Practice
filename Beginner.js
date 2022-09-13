@@ -169,7 +169,7 @@ console.log(countVowels("My name is naimur rahaman Emon"))
 */
 
 /*
-Exercise 11
+Exercise 12
 ----------
 How to Extract duplicate numbers from an array?
 How to Extract unique numbers from an array?
@@ -177,10 +177,37 @@ How to Extract unique numbers from an array?
 */
 
 /*
+// Solution
 const numbers = [1,5,1,8,3,4,0,8,4,1,9,5,8,3,6,4];
 const duplicate = numbers.filter(function(value, index, array){
     return array.indexOf(value) !== index; // unique === index;
 });
 console.log(duplicate)
 */
+/*
+Exercise 13
+----------
+Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 
+*/
+
+/*
+
+//Solution
+
+function addUp(num){
+    let sum = 0;
+    for(let i = 1; i<= num; i+= 1){
+        sum += i;
+    }
+
+    return sum;
+}
+
+//The solution using the formula: sumTo(n) = n*(n+1)/2:
+
+function addUp(num) {
+	return num * (num + 1) / 2;
+}
+
+*/
